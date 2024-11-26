@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.ball{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 35px;
+    padding: 40px;
+
+}
+.cord{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: hsl(300, 43%, 22%);
+    line-height: 25px;
+    
+    
+}
+.roll{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+}
+.one{
+   display: flex;
+   width: 25vw;
+   background-color:hsl(300, 24%, 96%); 
+   gap: 10px;
+   border-radius: 5px;
+   padding: 15px;
+    
+}
+.two{
+    display: flex;
+    width: 25vw;
+    padding: 15px;
+    background-color:hsl(300, 24%, 96%); 
+    gap: 10px;
+    border-radius: 5px;
+    margin-left: 10%;  
+}
+.three{
+    display: flex;
+    width: 25vw;
+    padding: 15px;
+    background-color: hsl(300, 24%, 96%); 
+    gap: 10px;
+    border-radius: 5px;
+    margin-left: 20%;  
+}
+.doll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.rug{
+    display: flex;
+    flex-direction:column ;
+    line-height: 25px;
+    width: 20vw;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 6px;
+    color: white;
+    background-color: hsl(300, 43%, 22%);
+}
+.cord h2{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 45px;
+   line-height: 45px; 
+}
+.road{
+    display: flex;
+    gap: 25px;
+}
+.road img{
+    border-radius: 30px;
+    height: 5vh;
+}
+.jail{
+    display: flex;
+    flex-direction:column ;
+    line-height: 25px;
+    width: 20vw;
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 5px;
+    gap: 6px;
+    margin-top: 3%;
+    color: white;
+    
+   
+   
+     
+}
+.mail{
+    display: flex;
+    gap: 25px;  
+}
+.mail img{
+    border-radius: 30px;
+    height: 5vh; 
+}
+.last{
+    display: flex;
+    flex-direction:column ;
+    line-height: 25px;
+    width: 20vw;
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 5px;
+    gap: 6px;
+    margin-top: 5%;
+    color: white;
+    
+   
+      
+}
+.end{
+    display: flex;
+    gap: 25px;   
+}
+.end img{
+    border-radius: 30px;
+    height: 5vh;  
+}
+
+@media screen and (max-width:760px) {
+    .name, .ball, .doll {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cord{
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+    }
+    .one, .two,.three{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 17pc;
+        margin-left: 0%;    
+
+    }
+    .main1 img,.main2 img,.main3 img{
+        width: 10vw;
+    }
+    .main1 p{
+        font-size:large ;
+    }
+    .rug,.jail,.last{   
+        width: 75vw;    
+    }
+}
+
+    
